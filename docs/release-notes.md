@@ -1,0 +1,1 @@
+# Release Notes v1.0.0 ## Funcionalidades - Incremento de 2 em 2 - Funcao updateCount (renomeada de setCount) - Tema escuro ajustavel com multiplos elementos ## Conflitos resolvidos - Cor primaria, titulo e logica de tema
