@@ -1,1 +1,1 @@
-let count = 0; function updateCount() { count += 1; document.getElementById("count").textContent = count; } function toggleTheme() { document.body.classList.toggle("dark"); }
+let count = 0; function setCount() { count += 2; document.getElementById("count").textContent = count; } function toggleTheme() { document.body.classList.toggle("dark"); document.querySelector("h1").classList.toggle("dark-title"); document.querySelector("p").classList.toggle("dark-text"); }
