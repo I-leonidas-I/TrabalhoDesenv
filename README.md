@@ -1,0 +1,1 @@
+# Trabalho GitFlow ## Integrantes - Aluno A: [Leonidas] — owner e coordenador - Aluno B: [Leticia] — feature incremento e hotfix - Aluno C: [Nicolas] — feature tema ajustavel ## Branches utilizadas main, develop, feature/incremento-rename, feature/tema-ajustavel, release/1.0.0, hotfix/titulo-claro
