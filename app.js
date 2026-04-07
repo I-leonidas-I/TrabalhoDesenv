@@ -1,1 +1,1 @@
-let count = 0; function setCount() { count += 1; document.getElementById("count").textContent = count; } function toggleTheme() { document.body.classList.toggle("dark"); }
+let count = 0; let dark = false; function updateCount() { count += 2; document.getElementById("count").textContent = count; } function toggleTheme() { dark = !dark; document.body.classList.toggle("dark", dark); document.querySelector("h1").style.color = dark ? "white" : "black"; document.title = dark ? "Contador | Modo Escuro" : "Contador"; }
